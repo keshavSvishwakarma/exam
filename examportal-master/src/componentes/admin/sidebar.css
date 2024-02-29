@@ -1,0 +1,104 @@
+#header {
+    /* position: fixed; */
+    /* position:static; */
+    /* width: 220px; */
+
+    top:0;
+  }
+  /* #header .pro-sidebar {
+    /* height: 90vh; */
+  /* } */ 
+  #header .closemenu {
+    color: #000;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    /* top: 2px; */
+    margin-top: 4px;
+    margin-right: 5px !important;
+    cursor: pointer;
+
+  }
+  #header .pro-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
+  #header .pro-sidebar.collapsed {
+    width: 80px;
+    min-width: 80px;
+  }
+  #header .pro-sidebar-inner {
+    background-color: #f8f9fa;
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: hidden;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .logotext span {
+    font-size: 20px;
+    padding: 0 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0 5px;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    color: #000;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 3px;
+  }
+  
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
+    color: #000;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .active {
+    /* background-image: linear-gradient(0deg, #007bff 0%, #007bff 100%); */
+    background-color:#007bffb4 ;
+    border-radius: 3px;
+
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .active  {
+    /* background-image: linear-gradient(0deg, #007bff 0%, #007bff 100%); */
+    /* background-color:#007bff ;
+    border-radius: 3px; */
+  color: white;
+  }
+  /* #header .logo {
+    padding: 20px;
+  } */
+ /* #header .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+    border-bottom: 1px solid rgba(173, 173, 173, 0.2);
+    padding:13px 0px;
+ } */
+  
+ #header .pro-sidebar .pro-menu {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+
+   #header .pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu > .pro-inner-list-item > .popper-inner {
+        max-height: 100vh;
+        overflow-y: auto;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+        background-color: #ffffff;
+        padding-left: 20px;
+        border-radius: 4px;
+     }
+
+    #header .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+      position: relative;
+      background-color: #f1f1f1; }
+  @media only screen and (max-width: 720px) {
+    html {
+      overflow: hidden;
+    }
+  }

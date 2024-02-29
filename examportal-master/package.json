@@ -1,0 +1,62 @@
+{
+  "name": "examportal",
+  "version": "0.1.0",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^29.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "@popperjs/core": "^2.9.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^1.6.5",
+    "bootstrap": "^5.0.2",
+    "browser-navigation-warning": "^1.0.1",
+    "buffer": "^6.0.3",
+    "dal": "^0.1.0",
+    "disable-browser-back-navigation": "^0.1.0",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.8.1",
+    "material-table": "^1.63.0",
+    "react": "^17.0.2",
+    "react-countdown-circle-timer": "^2.5.3",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.11.1",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^4.2.0",
+    "react-pro-sidebar": "^0.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.0.1",
+    "react-window": "^1.8.6",
+    "rxjs": "^7.2.0",
+    "safe-buffer": "^5.2.1",
+    "sweetalert2": "^11.0.20",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
